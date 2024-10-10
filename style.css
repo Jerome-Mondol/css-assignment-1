@@ -1,0 +1,460 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-btn {
+    padding: 7px 25px;
+    background: whitesmoke;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+
+.signup-btn {
+    padding: 7px 25px;
+    background: black;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+
+.home-page {
+    height: calc(100vh - 12vh);
+    width: 100%;
+    background: url(images/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 80%;
+    height: 60%;
+    background: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form-heading {
+    font-size: 45px;
+    font-weight: 450;
+}
+
+.inputs {
+    width: 60%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.drop-downs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.inputs select {
+    font-size: 24px;
+    padding: 7px 20px;
+    border-radius: 5px;
+    background: whitesmoke;
+    border: none;
+}
+
+.offer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 57%;
+    height: 5vh;
+}
+
+.offer h1 {
+    width: 70%;
+    padding: 10px 0;
+    text-align: center;
+    background: whitesmoke;
+    border-radius: 5px;
+    font-size: 21px;
+}
+
+.offer-btn {
+    width: 25%;
+    font-size: 21px;
+    background: #00ebc7;
+    padding: 10px 0;
+    border: none;
+    border-radius: 50px;
+}
+
+.home-btn {
+    padding: 7px 21px;
+    background: transparent;
+    margin-top: 60px;
+    font-size: 25px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+}
+
+.buy {
+    width: 100%;
+    height: 45vh;
+    background: #fde24f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.features {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: left;
+    flex-direction: column;
+}
+
+.features-text {
+    margin-left: 5rem;
+}
+
+.feature-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.feature {
+    width: 40%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.feature h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.feature p {
+    width: 250px;
+    font-size: 18px;
+    color: gray;
+    margin-top: 20px;
+}
+
+.feature a {
+    margin-top: 25px;
+    color: #000;
+}
+
+.feature-btn {
+    margin-top: 50px;
+    padding: 10px 35px;
+    border-radius: 30px;
+    border: 2px solid #000;
+    background: none;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+.nothing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sell {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy-div, .sell-div {
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    border: 1px solid #000;
+}
+
+.buy-card, .sell-card {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.buy-card p, .buy-card h1, .sell-card p, .sell-card h1 {
+    font-size: 18px;
+}
+
+.buy-btn, .sell-btn {
+    padding: 10px 25px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.promotion {
+    background: #CFBAFF;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.promotion h1 {
+    font-size: 70px;
+    text-align: center;
+    width: 80%;
+}
+
+.promo-btn {
+    padding: 8px 50px;
+    margin-top: 50px;
+    background: #000;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 15px;
+}
+
+.footer {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background: #000;
+}
+
+.footer-div {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.col h3 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.col a {
+    font-size: 21px;
+    margin-top: 7px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-text {
+    background: #000;
+    color: #fff;
+    border-top: 1px solid gray;
+    padding: 30px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .navbar {
+        height: 10vh;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .navlinks {
+        display: none;
+    }
+
+    .nav-btn {
+        width: 100px;
+        font-size: 15px;
+    }
+
+    .form h1{
+        font-size: 20px;
+    }
+
+    .inputs {
+        width: 100%;
+    }
+
+    .drop-downs {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-top: 45px;
+    }
+
+
+    .inputs select{
+        font-size: 15px;
+    }
+
+    .offer {
+        margin-top: 50px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .offer h1 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .offer-btn {
+        width: 80%;
+    }
+
+    .buy img{
+        width: 100%;
+    }
+
+    .buy h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .features h1 {
+        text-align: left;
+    }
+
+    .feature-card:nth-child(2), .feature-card:nth-child(3) {
+        display: none;
+    }
+
+    .buy-div {
+        width: 100%;
+    }
+
+    .buy-card {
+        width: 90%;
+    }
+
+    .sell-div {
+        display: none;
+    }
+
+    .promotion {
+        height: 30vh;
+    }
+
+    .promotion h1 {
+        font-size: 25px;
+    }
+
+    .promo-btn {
+        margin-top: 10px;
+    }
+
+    .footer {
+        height: 100vh;
+    }
+  }
