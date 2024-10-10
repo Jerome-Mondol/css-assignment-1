@@ -455,6 +455,15 @@ nav {
     }
 
     .footer {
-        height: 100vh;
+        height: fit-content;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .col a {
+        font-size: 18px;
     }
   }
